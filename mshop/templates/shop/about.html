@@ -1,0 +1,29 @@
+{% extends 'shop/basic.html' %}
+
+{% block title %} About {% endblock %}
+
+{% block body %}
+
+{% load static %}
+<div class="container mx-7 my-4">
+    <h1 style="font-size: xx-large;">About Us</h1>
+    <p class="mb-4">
+        MegaShop is guided by four principles: customer obsession
+        rather than competitor focus, passion for invention, commitment
+        to operational excellence, and long-term thinking. MegaShop strives
+        to be Earth’s most customer-centric company, Earth’s best employer,
+        and Earth’s safest place to work. Customer reviews, 1-Click shopping,
+        personalized recommendations, Prime, Fulfillment by MegaShop, MegaShop Studios,
+        and The Climate Pledge are some of the things pioneered by MegaShop.</p>
+    <img src="{% static 'shop/images/warehouse.jpg' %}" class="col-auto" alt="">
+    <p class="mt-4">
+        We hold ourselves and each other accountable for demonstrating the
+        Leadership Principles through our actions every day. Our Leadership
+        Principles describe how MegaCart does business, how leaders lead, and
+        how we keep the customer at the center of our decisions. Our unique
+        MegaCart culture, described by our Leadership Principles, helps us
+        relentlessly pursue our mission of being Earth’s most customer-centric
+        company, best employer, and safest place to work.</p>
+</div>
+
+{% endblock %}
